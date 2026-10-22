@@ -9,14 +9,12 @@ const CONFIG = {
 };
 
 const PRODUCTS = [
-  { id: "set", name: "Beach Day Set", desc: "2 chairs, 1 umbrella, and a side table — the easy family setup.", price: 45, featured: true },
+  { id: "set", name: "Beach Day Set", desc: "2 chairs, 1 umbrella, and a side table — the easy family setup.", price: 50, featured: true },
   { id: "chair", name: "Beach Chair", desc: "A sturdy sand chair, planted and ready.", price: 12 },
-  { id: "umbrella", name: "Beach Umbrella", desc: "Wide shade, anchored so it stays put.", price: 20 },
+  { id: "umbrella", name: "Beach Umbrella", desc: "Wide shade, anchored so it stays put.", price: 30 },
   { id: "table", name: "Side Table", desc: "A little perch for drinks, phones, and snacks.", price: 8 },
-  { id: "boogie", name: "Boogie Board", desc: "Ride the whitewater all afternoon.", price: 15 },
-  { id: "soft", name: "Soft-Top Surfboard", desc: "Friendly foam board for fun, mellow waves.", price: 40 },
-  { id: "surf", name: "Surfboard", desc: "Fiberglass shortboard or funboard.", price: 45 },
-  { id: "sup", name: "Paddleboard", desc: "Cruise the shoreline. Paddle included.", price: 55 }
+  { id: "boogie", name: "Boogie Board", desc: "Ride the whitewater all afternoon.", price: 20 },
+  { id: "soft", name: "Soft-Top Surfboard", desc: "Friendly foam board for fun, mellow waves.", price: 40 }
 ];
 
 const ICONS = {
@@ -25,9 +23,7 @@ const ICONS = {
   umbrella: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 8c10 0 16 6 16 10H8c0-4 6-10 16-10z"/><path d="M24 18v20M24 38c-4 0-6 2-6 4"/></svg>',
   table: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 20h32"/><path d="M14 20v16M34 20v16M24 20v10"/></svg>',
   boogie: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><rect x="10" y="14" width="28" height="20" rx="10"/><path d="M18 24h12"/></svg>',
-  soft: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6c6 10 8 18 8 28 0 6-3.5 8-8 8s-8-2-8-8c0-10 2-18 8-28z"/></svg>',
-  surf: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 5c7 12 9 20 9 29 0 6-4 9-9 9s-9-3-9-9c0-9 2-17 9-29z"/><path d="M24 18v16"/></svg>',
-  sup: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6c7 11 9 19 9 28 0 6-3 8-7 8s-8-2-8-8c0-9 2-17 6-28z"/><path d="M30 8l6 4-8 28"/></svg>'
+  soft: '<svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6c6 10 8 18 8 28 0 6-3.5 8-8 8s-8-2-8-8c0-10 2-18 8-28z"/></svg>'
 };
 
 const state = {
