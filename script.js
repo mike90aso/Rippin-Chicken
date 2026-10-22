@@ -10,9 +10,9 @@ const CONFIG = {
 
 const PRODUCTS = [
   { id: "set", name: "Beach Day Set", desc: "2 chairs, 1 umbrella, and a side table — the easy family setup.", price: 50, featured: true },
-  { id: "chair", name: "Beach Chair", desc: "A sturdy sand chair, planted and ready.", price: 12 },
+  { id: "chair", name: "Beach Chair", desc: "A sturdy sand chair, planted and ready.", price: 15 },
   { id: "umbrella", name: "Beach Umbrella", desc: "Wide shade, anchored so it stays put.", price: 30 },
-  { id: "table", name: "Side Table", desc: "A little perch for drinks, phones, and snacks.", price: 8 },
+  { id: "table", name: "Side Table", desc: "A little perch for drinks, phones, and snacks.", price: 10 },
   { id: "boogie", name: "Boogie Board", desc: "Ride the whitewater all afternoon.", price: 20 },
   { id: "soft", name: "Soft-Top Surfboard", desc: "Friendly foam board for fun, mellow waves.", price: 40 }
 ];
